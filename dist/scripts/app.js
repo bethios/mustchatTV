@@ -6,15 +6,16 @@
                 requireBase: false
             });
         $stateProvider
-            .state('landing', {
+            .state('home', {
                 url: '/',
                 controller: 'HomeCtrl as home',
                 templateUrl: '/templates/home.html'
             })
+
     }
 
-    angular.module('blocJams', ['ui.router']);
+    angular.module('blocChat', ['ui.router']);
     angular
-        .module('blocJams', ['ui.router'])
+        .module('blocChat', ['ui.router'])
         .config(config);
 })();

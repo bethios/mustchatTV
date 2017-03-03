@@ -40,12 +40,9 @@ html{
 }
 
 body{
-    background-image: url("../assets/images/blurred_backgrounds/blur_bg_3.jpg");
-    background-repeat: no-repeat;
+    background-color: gray;
     background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', Arial;
     color: white;
     min-height: 100%;
     padding-bottom: 200px;
