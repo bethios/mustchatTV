@@ -1,0 +1,66 @@
+body.landing{
+    background-color: rgb(22, 181, 244);
+}
+
+.hero-content{
+    position: relative;
+    min-height: 600px;
+    background-image:url("../assets/images/brobots_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-bottom: solid dimgray 2px;
+
+}
+
+.hero-content .hero-title {
+    position: absolute;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-shadow: 2px 2px 0px rgb(22, 55, 140);
+    font-family: 'Bahiana';
+
+}
+
+.selling-points{
+    position: relative;
+}
+
+.point{
+    position: relative;
+    padding: 2rem;
+    text-align: center;
+    opacity: 1;
+    -webkit-transform: scaleX(0.9) translateY(3rem);
+    -moz-transform: scaleX(0.9) translateY(3rem);
+    transform: scaleX(0.9) translateY(3rem);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+    font-size: 1rem;
+}
+
+.point .point-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    margin: 10px;
+}
+
+.ion-headphone,
+.ion-mic-c,
+.ion-iphone{
+    color: darkslategray;
+    font-size: 5rem;
+}
