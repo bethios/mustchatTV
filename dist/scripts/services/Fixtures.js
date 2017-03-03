@@ -6,6 +6,6 @@
     }
 
     angular
-        .module('blocJams')
+        .module('blocChat')
         .factory('Fixtures', Fixtures);
 })();

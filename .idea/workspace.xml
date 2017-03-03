@@ -1,7 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9794527c-5bd7-4005-98b3-a232f90736dc" name="Default" comment="" />
+    <list default="true" id="9794527c-5bd7-4005-98b3-a232f90736dc" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/FrankieJamsOutLogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/album_covers/21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/bloc_jams_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/bloc_jams_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/bloc_jams_logo_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/blurred_backgrounds/blur_bg_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/blurred_backgrounds/blur_bg_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/blurred_backgrounds/blur_bg_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/blurred_backgrounds/dark-blur-background-splitshire-best-splitshire-8098-1024x683.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/brobots_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/frankieLogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/kidWithGuitar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/splatteredPaint.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/swingset.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/music/blue.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/music/green.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/music/magenta.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/music/pink.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/music/red.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/controllers/AlbumCtrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/controllers/CollectionCtrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/controllers/LandingCtrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/controllers/PlayerBarCtrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/directives/seekBar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/filters/timecode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/services/SongPlayer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/album.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/collection.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/landing.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/player_bar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/templates/album.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/templates/collection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/templates/directives/seek_bar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/templates/landing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/templates/player_bar.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/index.html" afterPath="$PROJECT_DIR$/app/pages/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/Fixtures.js" afterPath="$PROJECT_DIR$/app/scripts/services/Fixtures.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/app.js" afterPath="$PROJECT_DIR$/dist/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/services/Fixtures.js" afterPath="$PROJECT_DIR$/dist/scripts/services/Fixtures.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="$PROJECT_DIR$/dist/styles/main.css" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,8 +85,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -31,28 +95,18 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeCtrl.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HomeCtrl.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/HomeCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fixtures.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/scripts/services/Fixtures.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,8 +115,8 @@
       <file leaf-file-name="Room.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/Room.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,14 +125,29 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="240">
+              <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1335">
+              <caret line="89" column="1" lean-forward="true" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>blocjams</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,14 +156,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/scripts/services/SongPlayer.js" />
-        <option value="$PROJECT_DIR$/app/scripts/services/Room.js" />
-        <option value="$PROJECT_DIR$/app/scripts/services/Fixtures.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/LandingCtrl.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/HomeCtrl.js" />
         <option value="$PROJECT_DIR$/dist/scripts/app.js" />
-        <option value="$PROJECT_DIR$/app/templates/home.html" />
-        <option value="$PROJECT_DIR$/app/pages/index.html" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app/scripts/services/Fixtures.js" />
+        <option value="$PROJECT_DIR$/app/pages/index.html" />
+        <option value="$PROJECT_DIR$/app/styles/main.css" />
+        <option value="$PROJECT_DIR$/app/templates/home.html" />
+        <option value="$PROJECT_DIR$/app/scripts/services/Room.js" />
       </list>
     </option>
   </component>
@@ -112,8 +182,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
-    <option name="y" value="62" />
+    <option name="y" value="71" />
     <option name="width" value="1333" />
     <option name="height" value="758" />
   </component>
@@ -353,15 +422,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1488560206043</updated>
-      <workItem from="1488560207450" duration="907000" />
+      <workItem from="1488560207450" duration="1868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="907000" />
+    <option name="totallyTimeSpent" value="1868000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="62" width="1333" height="758" extended-state="1" />
+    <frame x="0" y="71" width="1333" height="758" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -371,17 +440,17 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280116" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,22 +464,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/HomeCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -419,34 +472,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/app/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/Room.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/services/Fixtures.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/Room.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="1" lean-forward="true" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/HomeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
