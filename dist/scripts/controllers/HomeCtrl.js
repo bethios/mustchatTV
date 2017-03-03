@@ -1,10 +1,11 @@
 (function() {
-    function HomeCtrl() {
+    function HomeCtrl(Room) {
         this.heroTitle = "Must Chat TV!";
+        this.chatRooms = Room;
     }
 
     angular
         .module('blocChat')
-        .controller('HomeCtrl', HomeCtrl);
+        .controller('HomeCtrl', ['Room', HomeCtrl]);
 })();
 

@@ -1,3 +1,11 @@
 <section class="hero-content">
     <h1 class="hero-title">{{ home.heroTitle }}</h1>
+
+    <h2>Chat Rooms</h2>
+    <section class="rooms-list">
+        <div class="chatrooms" ng-repeat="room in home.chatRooms track by $index" >
+            <p>{{ room }}</p>
+        </div>
+    </section>
+
 </section>

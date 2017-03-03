@@ -1,11 +1,16 @@
 (function() {
-    function Room($rootScope, $firebaseArray) {
-        var Room = {};
+    function Room($firebaseArray) {
+        var ref = firebase.database().ref();
+        var rooms = $firebaseArray(ref);
+        //var rooms = ref.child("rooms");
+        console.log(ref.key);
 
-        return Room;
+        return {
+            all: rooms
+        };
     }
 
     angular
         .module('blocChat')
-        .factory('Room', ['$rootScope', 'Fixtures', Room]);
+        .factory('Room', ['$firebaseArray', Room]);
 })();
