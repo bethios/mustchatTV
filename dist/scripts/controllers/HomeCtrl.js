@@ -1,7 +1,7 @@
 (function() {
     function HomeCtrl(Room) {
         this.heroTitle = "Must Chat TV!";
-        this.chatRooms = Room;
+        this.chatRooms = Room
     }
 
     angular

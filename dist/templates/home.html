@@ -3,9 +3,11 @@
 
     <h2>Chat Rooms</h2>
     <section class="rooms-list">
-        <div class="chatrooms" ng-repeat="room in home.chatRooms track by $index" >
-            <p>{{ room }}</p>
-        </div>
+        <ul class="chatrooms" ng-repeat="room in home.chatRooms" >
+            <li class="roomName">{{room}}</li>
+        </ul>
+
+
     </section>
 
 </section>
