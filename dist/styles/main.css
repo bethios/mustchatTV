@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 @media (min-width: 640px){
     html { font-size: 112%; }
 
@@ -21,82 +22,34 @@
     .column.flow-opposite { float: right; }
 }
 
+.col-sm-3{
+    background-image: url("/assets/images/shag.jpg");
+    color: white;
+    font-weight: 600;
+}
+
+.col-sm-9{
+    background-color: gray;
+}
+
+
 @media (min-width: 1024px){
     html {font-size: 120%; }
 }
 
-.container{
-    margin: 0 auto;
-    max-width: 64rem;
-}
-
-.container.narrow{
-    max-width: 56rem;
-}
 
 html{
     height: 100%;
     font-size:100%;
 }
 
-body{
+body {
     background-color: gray;
     background-attachment: fixed;
     font-family: 'Open Sans', Arial;
     color: white;
     min-height: 100%;
     padding-bottom: 200px;
-
-}
-
-.navbar{
-    position: relative;
-    padding: 0.5rem;
-    background-color: rgb(86, 39, 78);
-    z-index: 1;
-    border-bottom: solid dimgray 2px;
-}
-
-.navbar .logo {
-    position: relative;
-    left: 2rem;
-    cursor: pointer;
-}
-
-.navbar .links-container{
-    display: table;
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100px;
-    color: white;
-    text-decoration: none;
-}
-
-.links-container .navbar-link{
-    display: table-cell;
-    position: relative;
-    height: 100%;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    vertical-align: middle;
-    color: white;
-    font-size: 1rem;
-    letter-spacing: 0.2rem;
-    font-weight: 750;
-    text-transform: uppercase;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.links-container .navbar-link:hover {
-    color: rgb(209,209,209);
-}
-
-
-.links-container .navbar-link:active {
-    background-color:white;
-    color: rgb(29, 65, 163);
 }
 
 

@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html ng-app="blocChat">
 <head lang="en">
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Must Chat TV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="/styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
 
     <ui-view></ui-view>
 
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-    <script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.7.0/firebase.js"></script>
     <script>
+        // Initialize Firebase
         var config = {
-            apiKey: "AIzaSyD3MrPUkixR19QxcUXvOUP5GytnvQZ3Rng",
-            authDomain: "bloc-chat-5c83e.firebaseapp.com",
-            databaseURL: "https://bloc-chat-5c83e.firebaseio.com",
-            storageBucket: "bloc-chat-5c83e.appspot.com",
-            messagingSenderId: "682535253166"
+            apiKey: "AIzaSyAi-HrBcKT6k1k5GO2NbTNHVK748iF4JSk",
+            authDomain: "must-chat-tv.firebaseapp.com",
+            databaseURL: "https://must-chat-tv.firebaseio.com",
+            storageBucket: "must-chat-tv.appspot.com",
+            messagingSenderId: "752156685868"
         };
         firebase.initializeApp(config);
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.1.10/buzz.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+
+    <script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
     <script src="/scripts/app.js"></script>
     <script src="/scripts/services/Fixtures.js"></script>
     <script src="/scripts/services/Room.js"></script>
