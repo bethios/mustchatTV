@@ -23,9 +23,10 @@
 }
 
 
-.banner{
+.bannerView{
     display: inline;
     position: relative;
+    background-color: #EEC008;
 }
 
 h1{
@@ -45,21 +46,24 @@ h1{
 }
 
 .chat-navigate{
-    background-image: url("../assets/images/shag.jpg");
-    color: white;
+    color: mediumblue;
     font-weight: 600;
-    padding: 50px;
+    background-color: #7AE1E1;
+    padding: 10px, 30px, 30px, 30px;
+    border-radius: 5%;
 }
 
 .chat-view{
     background-color: gray;
     padding: 50px;
     margin-left: 10px;
+    border-radius: 25%;
+    min-height: 600px;
 }
 
 ul {
-    margin-bottom: 0px;
-    padding: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
 }
 
 ul li {
@@ -76,8 +80,11 @@ ul li {
 }
 
 .newRoomBtn{
-    background-color: green;
+    background-color: mediumblue;
     margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+
 }
 
 html{
@@ -85,10 +92,14 @@ html{
     font-size:100%;
 }
 
-body {
+.mainView {
     font-family: 'Open Sans', Arial;
     color: white;
     padding-bottom: 200px;
+    background-image: url("../assets/images/midcentury.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
