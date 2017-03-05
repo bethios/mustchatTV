@@ -1,45 +1,38 @@
-<div class="container">
-        <div class="row bannerView">
-            <div class="col-sm-3">
-                <img src="../assets/images/oldTV.png" style="width:200px;height:200px" alt="Must Chat TV">
+<div  id="newRoomModal" class="modal modal-dialog fade" data-keyboard ="true" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modal-title">Create new room</h3>
+                <button class="close" type="button" data-dismiss='modal' ng-click="modal.cancel()"><i class="ion-close-round"></i></button>
+
             </div>
-            <div class="col-sm-9">
+            <div class="modal-body" id="modal-body">
+                <label for="newRoom">Name of new room:</label>
+                <input type="text" id="newRoom" ng-model="newRoomName">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" type="button" ng-click="home.create(newRoomName)" data-dismiss="modal">Create</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="container chatContainer">
         <div class="row">
-            <div class="col-sm-3 chat-navigate">
-                <section class="rooms-list">
+            <div class="col-sm-3 ">
+                <img id="mustChatLogo" align="middle" src="../assets/images/oldTV.png" alt="Must Chat TV">
+                <section class="chat-navigate">
                     <h2>Chat Rooms</h2>
                     <ul class="chatrooms" ng-repeat="room in home.chatRooms" >
-                        <li class="roomName">{{room.name }}</li>
+                        <li class="roomName">{{ room.name }}</li>
                     </ul>
                     <button type="button" class="btn btn-block newRoomBtn" data-toggle="modal" data-target="#newRoomModal">Add New Room</button>
-
-
                 </section>
             </div>
 
             <div class="col-sm-8 chat-view">
                 <p>chat messages here</p>
-                <div  id="newRoomModal" class="modal modal-dialog fade modal-sm" role="dialog">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h3 class="modal-title" id="modal-title">Create new room</h3>
-                                <button class="close" type="button" data-dismiss='modal' ng-click="modal.cancel()"><i class="ion-close-round"></i></button>
-
-                            </div>
-                            <div class="modal-body" id="modal-body">
-                                <label for="newRoom">Name of new room:</label>
-                                <input type="text" id="newRoom" ng-model="newRoomName">
-                            </div>
-                            <div class="modal-footer">
-                                <button class="btn btn-primary" type="button" ng-click="home.create(newRoomName)">Create</button>
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
