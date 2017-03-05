@@ -2,7 +2,10 @@
     function HomeCtrl(Room) {
         this.heroTitle = "Must Chat TV!";
         this.chatRooms = Room.all;
-        console.log(Room)
+        this.create = function(newRoomName) {
+            Room.create(newRoomName);
+        }
+
     }
 
     angular

@@ -22,21 +22,63 @@
     .column.flow-opposite { float: right; }
 }
 
-.col-sm-3{
-    background-image: url("/assets/images/shag.jpg");
+
+.banner{
+    display: inline;
+    position: relative;
+}
+
+h1{
+    float: right;
+    padding: 40px;
+    display: inline;
+    color: black;
+}
+
+
+.close{
+    float: right;
+}
+
+.modal-title{
+    display: inline;
+}
+
+.chat-navigate{
+    background-image: url("../assets/images/shag.jpg");
     color: white;
     font-weight: 600;
+    padding: 50px;
 }
 
-.col-sm-9{
+.chat-view{
     background-color: gray;
+    padding: 50px;
+    margin-left: 10px;
 }
 
+ul {
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+ul li {
+    padding-bottom: 5px;
+}
+
+#newRoomModal {
+    color: black;
+    width: 600px;
+}
 
 @media (min-width: 1024px){
     html {font-size: 120%; }
 }
 
+.newRoomBtn{
+    background-color: green;
+    margin-top: 20px;
+}
 
 html{
     height: 100%;
@@ -44,11 +86,8 @@ html{
 }
 
 body {
-    background-color: gray;
-    background-attachment: fixed;
     font-family: 'Open Sans', Arial;
     color: white;
-    min-height: 100%;
     padding-bottom: 200px;
 }
 
