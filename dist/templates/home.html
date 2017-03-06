@@ -25,14 +25,21 @@
                 <section class="chat-navigate">
                     <h2>Chat Rooms</h2>
                     <ul class="chatrooms" ng-repeat="room in home.chatRooms" >
-                        <li class="roomName">{{ room.name }}</li>
+                        <li class="roomName" ng-click="home.selectedRoom(room)">{{ room.name }}</li>
                     </ul>
                     <button type="button" class="btn btn-block newRoomBtn" data-toggle="modal" data-target="#newRoomModal">Add New Room</button>
                 </section>
             </div>
 
             <div class="col-sm-8 chat-view">
-                <p>chat messages here</p>
+                <div class="chat-window">
+                    <h1 ng-show="home.activeRoom == null">Select or create a chat room to begin.</h1>
+                    <h1 ng-show="home.activeRoom !== null">Welcome to "{{home.activeRoom.name}}" Chat!</h1>
+                    <div class="chat-messages" ng-if="home.activeRoom !== null" ng-repeat="message in home.activeRoomMessages">
+                        <p class="chat-contents chat-messages" >{{message.content }}</p>
+                        <p class="chat-messages chat-user-info">{{message.username}} {{message.sentAt}}</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

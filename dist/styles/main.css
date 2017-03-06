@@ -25,6 +25,13 @@
     height: auto;
 }
 
+h1{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 h2{
     margin-top: 5px;
 }
@@ -37,11 +44,6 @@ h2{
     display: inline;
 }
 
-.chatContainer{
-    margin-top: 50px;
-    border-image-repeat: initial;
-}
-
 .chat-navigate{
     color: mediumblue;
     font-weight: 600;
@@ -52,10 +54,19 @@ h2{
 
 .chat-view{
     background-color: gray;
-    padding: 50px;
+    padding: 20px;
     margin: 10px;
-    border-radius: 25%;
+    border-radius: 5%;
     min-height: 650px;
+}
+
+.chat-messages{
+    border: solid 1px black;
+    margin:0px;
+}
+
+.chat-user-info{
+    text-align: right;
 }
 
 ul {
@@ -100,22 +111,12 @@ html{
 
 
 .mainView {
-    font-family: 'Open Sans', Arial;
+    font-family: 'Special Elite', cursive;
     color: white;
-    padding-bottom: 200px;
     background-image: url("../assets/images/midcentury.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-bottom: 50px;
 }
 
-
-.clearfix::before,
-.clearfix::after{
-    content: " ";
-    display: table;
-}
-
-.clearfix::after{
-    clear: both;
-}
