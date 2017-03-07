@@ -14,17 +14,31 @@
 
     }
 
-    function BlocChatCookies($cookies){
+
+
+    function BlocChatCookies($cookies, $uibModal){
         var currentUser = $cookies.get('blocChatCurrentUser');
         if (!currentUser || currentUser === '') {
-            console.log("ask for user name");
-            console.log($('#newUserModal'));
-            $("#newUserModal").modal("shown.bs.modal");
+            var modalInstance = $uibModal.open({
+                templateUrl: '/templates/userModal.html',
+                controller: function($scope, $uibModalInstance){
+                    $scope.createUser = function(){
+                        $uibModalInstance.close($scope.newUsername);
+                    }
+                },
+                size: 'md'
+            });
+            modalInstance.result.then(function(newUserName){
+                $cookies.put('blocChatCurrentUser', newUserName);
+            });
+
         }
     }
 
+
+
     angular
-        .module('blocChat', ['ui.router', 'firebase', 'ngCookies'])
+        .module('blocChat', ['ui.router', 'ui.bootstrap',  'firebase', 'ngCookies'])
         .config(config)
-        .run(['$cookies', BlocChatCookies]);
+        .run(['$cookies', '$uibModal', BlocChatCookies]);
 })();
