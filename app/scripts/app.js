@@ -14,7 +14,17 @@
 
     }
 
+    function BlocChatCookies($cookies){
+        var currentUser = $cookies.get('blocChatCurrentUser');
+        if (!currentUser || currentUser === '') {
+            console.log("ask for user name");
+            console.log($('#newRoomModal'));
+            return $("#newRoomModal").modal("show");
+        }
+    }
+
     angular
         .module('blocChat', ['ui.router', 'firebase', 'ngCookies'])
-        .config(config);
+        .config(config)
+        .run(['$cookies', BlocChatCookies]);
 })();

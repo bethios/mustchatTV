@@ -10,8 +10,6 @@
         this.selectedRoom = function(room){
             this.activeRoom = room;
             this.activeRoomMessages = Room.getMessagesById(this.activeRoom.$id);
-
-        this.currentUser = null;
         };
 
     }
