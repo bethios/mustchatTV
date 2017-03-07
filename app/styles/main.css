@@ -85,6 +85,11 @@ ul li {
     html {font-size: 120%; }
 }
 
+
+.roomName:hover {
+    cursor:pointer;
+}
+
 .newRoomBtn{
     background-color: mediumblue;
     margin-top: 20px;

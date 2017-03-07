@@ -1,3 +1,3 @@
-Bloc-Jams
+Must Chat TV
 
-Built with Angular.
+Angular app for live chatting about your favorite shows.
