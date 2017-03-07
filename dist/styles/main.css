@@ -10,13 +10,6 @@
 
 }
 
-
-.bannerView{
-    display: inline;
-    position: relative;
-    background-color: #EEC008;
-}
-
 #mustChatLogo{
     padding-bottom: 20px;
     display: block;
@@ -53,7 +46,7 @@ h2{
 }
 
 .chat-view{
-    background-color: gray;
+    background-color: #DE4F52;
     padding: 20px;
     margin: 10px;
     border-radius: 5%;
@@ -61,8 +54,14 @@ h2{
 }
 
 .chat-messages{
-    border: solid 1px black;
-    margin:0px;
+    margin:0;
+}
+
+.chat-contents{
+    padding: 5px;
+    border-radius: 5%;
+    background-color: white;
+    color: black;
 }
 
 .chat-user-info{

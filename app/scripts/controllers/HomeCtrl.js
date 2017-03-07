@@ -10,12 +10,14 @@
         this.selectedRoom = function(room){
             this.activeRoom = room;
             this.activeRoomMessages = Room.getMessagesById(this.activeRoom.$id);
+
+        this.currentUser = null;
         };
 
     }
 
     angular
         .module('blocChat')
-        .controller('HomeCtrl', ['Room', HomeCtrl]);
+        .controller('HomeCtrl', ['Room', '$cookies', HomeCtrl]);
 })();
 
