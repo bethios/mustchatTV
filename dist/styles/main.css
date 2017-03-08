@@ -50,7 +50,13 @@ h2{
     padding: 20px;
     margin: 10px;
     border-radius: 5%;
-    min-height: 650px;
+}
+
+.chat-window{
+    overflow: scroll;
+    height: 600px;
+    width: 600px;
+    margin-bottom: 80px;
 }
 
 .chat-messages{
@@ -81,6 +87,34 @@ ul li {
     color: black;
 }
 
+
+.btn{
+    background-color: mediumblue;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.send-message {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 15px;
+    display: inline-block;
+    color: black;
+    padding: 10px;
+}
+
+.message-entry{
+    float: left;
+    width: 80%;
+}
+
+.message-entry .btn{
+    margin: 10px;
+}
+
 @media (min-width: 1024px){
     html {font-size: 120%; }
 }
@@ -88,13 +122,6 @@ ul li {
 
 .roomName:hover {
     cursor:pointer;
-}
-
-.btn{
-    background-color: mediumblue;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: white;
 }
 
 .modal-dialog{

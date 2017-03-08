@@ -32,12 +32,18 @@
             </div>
 
             <div class="col-sm-8 chat-view">
+                <h1 ng-show="home.activeRoom == null">Select or create a chat room to begin.</h1>
+                <h1 ng-show="home.activeRoom !== null">Welcome to "{{home.activeRoom.name}}" Chat!</h1>
                 <div class="chat-window">
-                    <h1 ng-show="home.activeRoom == null">Select or create a chat room to begin.</h1>
-                    <h1 ng-show="home.activeRoom !== null">Welcome to "{{home.activeRoom.name}}" Chat!</h1>
                     <div class="chat-messages" ng-if="home.activeRoom !== null" ng-repeat="message in home.activeRoomMessages">
                         <p class="chat-contents chat-messages" >{{message.content }}</p>
                         <p class="chat-messages chat-user-info">{{message.username}} {{message.sentAt}}</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="send-message row">
+                        <textarea class="message-entry col-sm-9" name="messageEntry" rows="3" cols="60" placeholder="get chatting!" ng-model="newMessage"></textarea>
+                        <button type="button" class="btn btn-default message-send col-sm-2" ng-click="home.sendMessage(newMessage)" >Send</button>
                     </div>
                 </div>
             </div>

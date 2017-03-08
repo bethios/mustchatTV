@@ -15,7 +15,6 @@
     }
 
 
-
     function BlocChatCookies($cookies, $uibModal, $scope){
         var currentUser = $cookies.get('blocChatCurrentUser');
         if (!currentUser || currentUser === '') {
@@ -24,15 +23,17 @@
                 controller: function($scope, $uibModalInstance){
                     $scope.createUser = function(newUserName){
                         $uibModalInstance.close();
-                        $cookies.put('blocChatCurrentUser', newUserName)
+                        $cookies.put('blocChatCurrentUser', newUserName);
+                        console.log($cookies.get('blocChatCurrentUser'));
                     }
                 },
                 size: 'md'
             });
         }
+
+        
+
     }
-
-
 
     angular
         .module('blocChat', ['ui.router', 'ui.bootstrap',  'firebase', 'ngCookies'])
