@@ -9,9 +9,17 @@
             <div class="modal-body" id="modal-body">
                 <label for="newRoom">Name of new room:</label>
                 <input type="text" id="newRoom" ng-model="newRoomName">
+                <br>
+                <div ng-show="home.isAdminUser">
+                    <input type="checkbox" id="private" ng-model="privateRoom">
+                    <label for="private">Make Private?</label>
+                    <br>
+                    <label for="usersAllowed" ng-show="privateRoom === true">Users allowed</label>
+                    <input type="text" id="usersAllowed" ng-model="usersAllowed" ng-show="privateRoom === true">
+                </div>
             </div>
             <div class="modal-footer">
-                <button class="btn" type="button" ng-click="home.create(newRoomName)" data-dismiss="modal">Create</button>
+                <button class="btn" type="button" ng-click="home.create(newRoomName, usersAllowed)" data-dismiss="modal">Create</button>
                 <button type="button" class="btn" data-dismiss="modal">Cancel</button>
             </div>
         </div>
@@ -44,7 +52,7 @@
                 <section class="chat-navigate">
                     <h2>Chat Rooms</h2>
                     <div class="listRooms">
-                        <ul class="chatrooms" ng-repeat="room in home.chatRooms" >
+                        <ul class="chatrooms" ng-repeat="room in home.chatRooms" ng-show="room.private === false || room.private.indexOf(home.activeUser) !== -1">
                             <li class="roomName" ng-click="home.selectedRoom(room)">{{ room.name }}</li>
                         </ul>
                     </div>

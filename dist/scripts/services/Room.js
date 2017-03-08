@@ -10,8 +10,10 @@
 
         return {
             all: rooms,
-            create: function(roomName){
-                rooms.$add({ name: roomName });
+            create: function(roomName, usersAllowed){
+                rooms.$add({ name: roomName,
+                            private: usersAllowed || false,
+                });
             },
             getMessagesById: function(activeRoomId){
                 return $firebaseArray(messageRef.orderByChild("roomId").equalTo(activeRoomId));
