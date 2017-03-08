@@ -1,10 +1,27 @@
 <div class="modal-header">
-    <h3 class="modal-title">Set User Name</h3>
+    <h3 class="modal-title">Sign Up or sign-in</h3>
 </div>
 <div class="modal-body">
-    <label for="newUser">User name:</label>
-    <input type="text" id="newUser" ng-model="newUserName" required>
+    <div class="signInUser">
+        <h4 class="modal-title">Sign into Existing Account</h4><br>
+        <label for="signInUser">User name:</label>
+        <input type="text" id="signInUser" ng-model="signInUserName" required>
+        <label for="signInEmail">email:</label>
+        <input type="email" id="signInEmail" ng-model="signInUserEmail" required>
+        <label for ="signInPassword">password:</label>
+        <input type="password" id="signInPassword" ng-model="signInUserPassword" required>
+        <button class="btn btn-primary" type="button" ng-click="signInUser(signInUserName, signInUserEmail, signInUserPassword)">Log-In</button>
+    </div>
+    <div class="newUser">
+        <h4 class="modal-title">New Sccount</h4><br>
+        <label for="newUser">User name:</label>
+        <input type="text" id="newUser" ng-model="newUserName" required>
+        <label for="newUserEmail">email:</label>
+        <input type="email" id="newUserEmail" ng-model="newUserEmail" required>
+        <label for ="newUserPassword">password:</label>
+        <input type="password" id="newUserPassword" ng-model="newUserPassword" required>
+        <button class="btn btn-primary" type="button" ng-click="createUser(newUserName, newUserEmail, newUserPassword)">Log-In</button>
+    </div>
 </div>
 <div class="modal-footer">
-    <button class="btn btn-primary" type="button" ng-click="createUser(newUserName)">Log-In</button>
 </div>

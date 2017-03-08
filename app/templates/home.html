@@ -11,8 +11,8 @@
                 <input type="text" id="newRoom" ng-model="newRoomName">
             </div>
             <div class="modal-footer">
-                <button class="btn btn-primary" type="button" ng-click="home.create(newRoomName)" data-dismiss="modal">Create</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button class="btn" type="button" ng-click="home.create(newRoomName)" data-dismiss="modal">Create</button>
+                <button type="button" class="btn" data-dismiss="modal">Cancel</button>
             </div>
         </div>
     </div>
@@ -20,18 +20,9 @@
 
 <div class="container chatContainer">
         <div class="row">
-            <div class="col-sm-3 ">
-                <img id="mustChatLogo" align="middle" src="../assets/images/oldTV.png" alt="Must Chat TV">
-                <section class="chat-navigate">
-                    <h2>Chat Rooms</h2>
-                    <ul class="chatrooms" ng-repeat="room in home.chatRooms" >
-                        <li class="roomName" ng-click="home.selectedRoom(room)">{{ room.name }}</li>
-                    </ul>
-                    <button type="button" class="btn btn-block newRoomBtn" data-toggle="modal" data-target="#newRoomModal">Add New Room</button>
-                </section>
-            </div>
 
-            <div class="col-sm-8 chat-view">
+
+            <div class="col-sm-8 col-xs-12 pull-right chat-view">
                 <h1 ng-show="home.activeRoom == null">Select or create a chat room to begin.</h1>
                 <h1 ng-show="home.activeRoom !== null">Welcome to "{{home.activeRoom.name}}" Chat!</h1>
                 <div class="chat-window">
@@ -46,6 +37,19 @@
                         <button type="button" class="btn btn-default message-send col-sm-2" ng-click="home.sendMessage(newMessage)" >Send</button>
                     </div>
                 </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-12">
+                <img id="mustChatLogo" align="middle" src="../assets/images/oldTV.png" alt="Must Chat TV">
+                <section class="chat-navigate">
+                    <h2>Chat Rooms</h2>
+                    <div class="listRooms">
+                        <ul class="chatrooms" ng-repeat="room in home.chatRooms" >
+                            <li class="roomName" ng-click="home.selectedRoom(room)">{{ room.name }}</li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-block newRoomBtn" data-toggle="modal" data-target="#newRoomModal">Add New Room</button>
+                </section>
             </div>
         </div>
     </div>

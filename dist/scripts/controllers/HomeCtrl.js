@@ -14,7 +14,6 @@
 
         this.sendMessage = function(messageContent){
             Room.send(messageContent, this.activeRoom.$id);
-            $scope.textarea.$setPristine();
         }
 
     }

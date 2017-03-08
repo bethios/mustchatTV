@@ -21,14 +21,30 @@
             var modalInstance = $uibModal.open({
                 templateUrl: '/templates/userModal.html',
                 controller: function($scope, $uibModalInstance){
-                    $scope.createUser = function(newUserName){
+                    $scope.createUser = function(newUserName, newUserEmail, newUserPassword){
                         $uibModalInstance.close();
                         $cookies.put('blocChatCurrentUser', newUserName);
-                        console.log($cookies.get('blocChatCurrentUser'));
+                        firebase.auth().createUserWithEmailAndPassword(newUserEmail, newUserPassword).catch(function(error) {
+                            // Handle Errors here.
+                            var errorCode = error.code;
+                            var errorMessage = error.message;
+                            // ...
+                        });
+                    };
+                    $scope.signInUser= function(signInUserName, signInUserEmail, signInUserPassword){
+                        $uibModalInstance.close();
+                        $cookies.put('blocChatCurrentUser', signInUserName);
+                        firebase.auth().signInWithEmailAndPassword(signInUserEmail, signInUserPassword).catch(function(error) {
+                            // Handle Errors here.
+                            var errorCode = error.code;
+                            var errorMessage = error.message;
+                            // ...
+                        });
                     }
                 },
                 size: 'md'
             });
+
         }
 
         
