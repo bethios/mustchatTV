@@ -9,6 +9,7 @@
         this.activeRoomMessages = null;
 
         this.activeUser = $cookies.get('blocChatCurrentUser');
+
         var adminUsers = ['bethios'];
 
         this.isAdminUser = function(activeUser){
@@ -24,15 +25,9 @@
             Room.send(messageContent, this.activeRoom.$id);
         };
 
-
         this.scrollChat = function(){
             $('.chat-window').scrollTop($('p:last').offset().top);
         };
-
-        this.clearFields = function(){
-            $scope.messageEntry.$setPristine();
-            $scope.newMessage = '';
-        }
 
     }
 
