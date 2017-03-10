@@ -3,8 +3,8 @@
         this.chatRooms = Room.all;
         this.create = function(newRoomName, usersAllowed) {
             Room.create(newRoomName, usersAllowed);
-            console.log(usersAllowed);
         };
+
         this.activeRoom= null;
         this.activeRoomMessages = null;
 
@@ -15,7 +15,6 @@
           return adminUsers.indexOf(this.activeUser) !== -1;
         };
 
-
         this.selectedRoom = function(room){
             this.activeRoom = room;
             this.activeRoomMessages = Room.getMessagesById(this.activeRoom.$id);
@@ -23,6 +22,16 @@
 
         this.sendMessage = function(messageContent){
             Room.send(messageContent, this.activeRoom.$id);
+        };
+
+
+        this.scrollChat = function(){
+            $('.chat-window').scrollTop($('p:last').offset().top);
+        };
+
+        this.clearFields = function(){
+            $scope.messageEntry.$setPristine();
+            $scope.newMessage = '';
         }
 
     }

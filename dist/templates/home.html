@@ -28,8 +28,6 @@
 
 <div class="container chatContainer">
         <div class="row">
-
-
             <div class="col-sm-8 col-xs-12 pull-right chat-view">
                 <h1 ng-show="home.activeRoom == null">Select or create a chat room to begin.</h1>
                 <h1 ng-show="home.activeRoom !== null">Welcome to "{{home.activeRoom.name}}" Chat!</h1>
@@ -42,7 +40,7 @@
                 <div class="container">
                     <div class="send-message row">
                         <textarea class="message-entry col-sm-9" name="messageEntry" rows="3" cols="60" placeholder="get chatting!" ng-model="newMessage"></textarea>
-                        <button type="button" class="btn btn-default message-send col-sm-2" ng-click="home.sendMessage(newMessage)" >Send</button>
+                        <button type="button" class="btn btn-default message-send col-sm-2" ng-click="home.sendMessage(newMessage) ; messageEntry.$setPristine() ; newMessage = '' " >Send</button>
                     </div>
                 </div>
             </div>
@@ -53,7 +51,7 @@
                     <h2>Chat Rooms</h2>
                     <div class="listRooms">
                         <ul class="chatrooms" ng-repeat="room in home.chatRooms" ng-show="room.private === false || room.private.indexOf(home.activeUser) !== -1">
-                            <li class="roomName" ng-click="home.selectedRoom(room)">{{ room.name }}</li>
+                            <li class="roomName" ng-click="home.selectedRoom(room) ; home.scrollChat()">{{ room.name }}</li>
                         </ul>
                     </div>
                     <button type="button" class="btn btn-block newRoomBtn" data-toggle="modal" data-target="#newRoomModal">Add New Room</button>

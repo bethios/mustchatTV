@@ -75,6 +75,7 @@ h2{
 .listRooms{
     overflow: scroll;
     height: 300px;
+    margin-bottom: 20px;
 }
 
 ul {
@@ -94,7 +95,6 @@ ul li {
 
 .btn{
     background-color: mediumblue;
-
     color: white;
 }
 
